@@ -58,7 +58,7 @@
         
            $result = $select->fetch(PDO::FETCH_OBJ);
 
-           print_r($result);
+
 
 
 ?>

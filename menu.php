@@ -19,13 +19,13 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                         <ul class="nav navbar-nav navbar-left ">
-                           <li><a href="profList.php">PROFESSOR</a></li>
-                           <li><a href="cateList.php"><span class="glyphicon glyphicon-list-alt"></span>CATEGORIAS</a></li>
-                           <li><a href="formContato.php">CONTATOS</a></li>
-                           <li><a href="form_insertAluno.php">ALUNO</a></li>
-                           <li><a href="cursList.php">CURSO</a></li>
-                           <li><a href="turmas.php">TURMAS</a></li>
-                           <li><a href="userList.php"><span class="glyphicon glyphicon-user"></span>Usuario</a></li>
+                           <li><a href="/profList.php">PROFESSOR</a></li>
+                           <li><a href="/cateList.php"><span class="glyphicon glyphicon-list-alt"></span>CATEGORIAS</a></li>
+                           <li><a href="/formContato.php">CONTATOS</a></li>
+                           <li><a href="/form_insertAluno.php">ALUNO</a></li>
+                           <li><a href="/cursList.php">CURSO</a></li>
+                           <li><a href="/turmas.php">TURMAS</a></li>
+                           <li><a href="/userList.php"><span class="glyphicon glyphicon-user"></span>Usuario</a></li>
                         </ul>
                         <!-- <div class="nav navbar-nav navbar-right">
 
