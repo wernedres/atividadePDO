@@ -8,11 +8,11 @@
 <head>
   <title>formulario de contato</title>
 </head>
-<?php
 
+<?php
 $nome        = strip_tags (trim($_POST['nome']));
 $email       = strip_tags (trim($_POST['email']));
-$senha    = strip_tags (trim($_POST['senha']));
+$senha       =strip_tags  (md5($_POST['senha']));
 
 
 
@@ -24,8 +24,8 @@ if(isset($_POST['enviar'])){
   try{
        $query_inserir = $db->prepare($pg_inserir);
        $query_inserir->bindValue(':nome',$nome,PDO::PARAM_STR);
-       $query_inserir->bindValue(':email', $email. PDO::PARAM_STR);
-       $query_inserir->bindValue(':senha', $senha. PDO::PARAM_STR);
+       $query_inserir->bindValue(':email', $email, PDO::PARAM_STR);
+       $query_inserir->bindValue(':senha', $senha, PDO::PARAM_STR);
        $query_inserir->execute();
 
       echo "<script>alert('Usuario cadastrado com sucesso')</script>";
@@ -41,8 +41,8 @@ if(isset($_POST['enviar'])){
 
     <form action"" method="post">
 
-  <label>NOME:<input type="text" name="nome"/></label><br/>
-  <label>Email:<input type="text" name="email"/></label><br/>
+  <label>NOME:<input type="text" name="nome"/></label>
+  <label>EMAIL:<input type="text" name="email"/></label>
     <label>SENHA:<input type="password" name="senha"/></label><br/>
   <input type="submit" name="enviar" value="Cadastrar"/>
   

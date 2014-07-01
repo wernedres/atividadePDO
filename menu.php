@@ -25,12 +25,12 @@
           </ul>
         </li>
  				 <li><a href="profList.php">professores</a></li>
-  		         <li><a href="cateList.php">categorias</a></li>
+  		         <li><a href="formCategoria.php">categorias</a></li>
                  <li><a href="formContato.php">Contato</a></li>
                  <li><a href="form_insertAluno.php">Alunos</a></li>
                  <li><a href="cursList.php">Cursos</a></li>
                  <li><a href="turmas.php">Turmas</a></li>
-                 <li><a href="formUSer.php">Adicionar usuario</a></li>
+                 <li><a href="userList.php">Usuario</a></li>
        
        </div>      
 
