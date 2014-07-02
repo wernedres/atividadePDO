@@ -14,7 +14,7 @@
             $pg_query->execute();
 
             echo "<script>alert('Professor BAITOLA cadastrado com sucesso')</script>";
-            header("Location:profList.php");
+            header("Location:../profList.php");
 
             }catch(PDOexception $e){
             echo $e->getMessage();

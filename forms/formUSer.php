@@ -25,7 +25,7 @@
        $query_inserir->execute();
 
       echo "<script>alert('Usuario cadastrado com sucesso')</script>";
-       echo '<script>window.location.replace("userList.php")</script>;';
+       echo '<script>window.location.replace("../userList.php")</script>;';
 
     }catch(PDOexception $erro_cadastro){
     echo 'error ao cadastrar'.$erro_cadastro->getMessage;
@@ -64,7 +64,7 @@
            <div class="form-group">
                 <label class="col-sm-2 control-label">Senha</label>
                     <div class="col-sm-3">
-                        <input name="telefone" type="password"  value="" placeholder="Digite a telefone" required>
+                        <input name="senha" type="password"  value="" placeholder="Digite a telefone" required>
                      </div>
             </div>
     

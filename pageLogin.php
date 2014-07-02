@@ -3,27 +3,27 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
-<body>
+    <head>
+        <title></title>
+    </head>
+    <body>
 
-<h2></h2>
-
-
-<form action="verificar_login.php" method="post">
-
-<label>Login:<input type="text" name="nome"></label>
-<label>senha:<input type="password" name="senha"></label>
-
-<input type="submit" name="" value="Acessar"/>
+        <h2></h2>
 
 
+        <form action="verificar_login.php" method="post">
 
-</form>
+            <label>Login:<input type="text" name="nome"></label>
+            <label>senha:<input type="password" name="senha"></label>
+
+            <input type="submit" name="" value="Acessar"/>
 
 
-</body>
+
+        </form>
+
+
+    </body>
 </html>
 
 

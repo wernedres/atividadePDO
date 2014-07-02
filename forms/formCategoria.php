@@ -15,7 +15,7 @@
 
 			
 
-            header("location:cateList.php");
+            header("location:../cateList.php");
 
             echo "<script>alert('Categoria cadastrada com sucesso')</script>";
 

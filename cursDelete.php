@@ -1,33 +1,28 @@
-<?php include_once 'pg_connect.php';?>
+<?php include_once 'pg_connect.php'; ?>
 
-<?php 
+<?php
 
-if (isset($_GET['action']) && $_GET['action'] == 'delete'){
+if (isset($_GET['action']) && $_GET['action'] == 'delete') {
 
-     $id =(int)$_GET['id'];
+    $id = (int) $_GET['id'];
 
-     $pgDelete = 'DELETE  FROM curso where curs_id = :id';  
+    $pgDelete = 'DELETE  FROM curso where curs_id = :id';
 
 
-      try{
-     
-   $delete = $db->prepare($pgDelete);
-   $delete-> bindValue(':id',$id,PDO::PARAM_INT);
-   $delete->execute();
+    try {
 
-      }catch(PDOexception $error){
-       echo $error->getMessage();
-         }
+        $delete = $db->prepare($pgDelete);
+        $delete->bindValue(':id', $id, PDO::PARAM_INT);
+        $delete->execute();
+    } catch (PDOexception $error) {
+        echo $error->getMessage();
     }
+}
 
-    header ("Location:cursList.php");
-
-
-
+header("Location:cursList.php");
 ?>
 
 
 
 
 
-    

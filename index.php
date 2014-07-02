@@ -6,19 +6,13 @@
 <div>
 
 <div class="container">
-    
-   <div class="jumbotron" > 
- <h3>PROJETO PDO </h3>
-
-
-<div  class="alert alert-success"> todo o conteudo............................;P</div>
-   <img src="../img/logo.png">
-      
-
-        
-    </div>
-
-
+  
+	<?php
+	 if(!isset($_GET['page']))
+	require_once("home.php");
+	else
+	require_once($_GET['page'].".php");
+	?>
 </div>
 
 
