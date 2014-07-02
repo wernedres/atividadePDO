@@ -42,20 +42,18 @@
 
 
 			<tr>
-				
 			<td><?php echo $rs->user_id ;?></td>
 			<td><?php echo $rs->user_nome;?></td>
 			<td><?php echo $rs->user_email ;?></td>
-			
-	        <td><a href="formUser.php" class="btn" ><i class="icon-pencil" ></i></a></td>
-            <td><a href="userList.php?action=delete&id=<?php echo $rs->id;  ?>" class='btn btn-danger  glyphicon glyphicon-trash' onclick="return confirm('Deseja reamente Excluir?');"><i class="icon-remove"></i></a></td>
+			<td><a href="userEdit.php?action=update&id=<?php echo $rs->user_id;?>" class="btn btn-info glyphicon glyphicon-list">Editar</a></td>
+            <td><a href="userDelete.php?action=delete&id=<?php echo $rs->user_id;?>" onclick="return confirm('Excluir Usuario?')" class="btn btn-danger  glyphicon glyphicon-trash" class="btn"  >Excluir</a></td>
             </tr>
 
 			<?php } ?>
 
 
 			</table>
-<a href="formUSer.php" class="btn btn-sm btn-success glyphicon glyphicon-ok"> Novo Usuario</a>
+<a href="forms/formUSer.php" class="btn btn-sm btn-success glyphicon glyphicon-ok"> Novo Usuario</a>
        
 </div>
-<?php include_once 'footer.php'; ?>
+<?php include_once '../footer.php'; ?>
