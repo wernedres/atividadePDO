@@ -26,7 +26,7 @@
      $pg_query->bindValue(':quantidade',$quantidade,PDO::PARAM_STR);
      $pg_query->execute();
 
-    header("Location:../cursList.php");
+    header("Location:cursList.php");
 
 
     } catch (PDOException $e) {

@@ -25,7 +25,7 @@
        $query_inserir->execute();
 
       echo "<script>alert('Usuario cadastrado com sucesso')</script>";
-       echo '<script>window.location.replace("../userList.php")</script>;';
+       echo '<script>window.location.replace("userList.php")</script>;';
 
     }catch(PDOexception $erro_cadastro){
     echo 'error ao cadastrar'.$erro_cadastro->getMessage;

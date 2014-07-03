@@ -1,7 +1,7 @@
 
-<?php include_once 'header.php'; ?>
-<?php include_once 'menu.php'; ?>
-<?php include_once 'pg_connect.php'; ?>
+<?php include_once '../header.php'; ?>
+<?php include_once '../menu.php'; ?>
+<?php include_once '../pg_connect.php'; ?>
 
 
 
@@ -53,7 +53,7 @@
 
 
         </table>
-        <a href="forms/formUSer.php" class="btn btn-sm btn-success glyphicon glyphicon-ok"> Novo Usuario</a>
+        <a href="formUSer.php" class="btn btn-sm btn-success glyphicon glyphicon-ok"> Novo Usuario</a>
 
 </div>
 <?php include_once '../footer.php'; ?>

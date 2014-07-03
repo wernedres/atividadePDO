@@ -8,5 +8,5 @@ if (!isset($_SESSION['nome']) AND ! isset($_SESSION['senha'])) {
     unset($_SESSION['nome']);
     unset($_SESSION['senha']);
 
-    header('location: pageLogin.php');
+    header('location:pageLogin.php');
 }

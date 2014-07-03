@@ -12,7 +12,8 @@ protegePagina();
 
         <title>Projeto PDO</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
-         <link rel="../stylesheet" type="text/css" href="styles/login.css">
+         <link rel="stylesheet" type="text/css" href="styles/login.css">
+          <link rel="stylesheet" type="text/css" href="../css/userLogado.css">
         <script src="../js/jquery.min.js"></script>
         <script src="../js/bootstrap.min.js"></script>
         <script src="../fonts/glyphicons-halflings-regular.ttf"></script>
@@ -25,10 +26,10 @@ protegePagina();
  
            <div class="userLogado">
 
-            Bem vindo,<?php echo $_SESSION['nome']; ?>
+            Bem vindo,<em><?php echo $_SESSION['nome']; ?></em>
 
 
-            <a href='?acao=sair'>Deslogar</a>
+            <a href='?acao=sair'class="btn btn-danger glyphicon glyphicon-off" >Deslogar</a>
 
             <?php
             if (isset($_GET['acao']) && $_GET['acao'] == "sair") {

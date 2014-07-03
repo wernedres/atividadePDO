@@ -1,6 +1,6 @@
-<?php require_once("pg_connect.php"); ?>
-<?php require_once("header.php"); ?>
-<?php require_once("menu.php"); ?>
+<?php require_once("../pg_connect.php"); ?>
+<?php require_once("../header.php"); ?>
+<?php require_once("../menu.php"); ?>
 
 <?php
 #UPDATE
@@ -81,6 +81,6 @@ if (isset($_GET['action']) && $_GET['action'] == 'update') {
 
     </div>
 </div>
-<?php require_once("footer.php"); ?>
+<?php require_once("../footer.php"); ?>
 
 

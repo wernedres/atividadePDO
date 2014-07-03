@@ -1,4 +1,4 @@
-<?php include_once 'pg_connect.php'; ?>
+<?php include_once '../pg_connect.php'; ?>
 
 <?php
 

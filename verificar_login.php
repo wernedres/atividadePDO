@@ -5,7 +5,7 @@
 <?php
 
 $nome = $_POST['nome'];
-$senha = (md5($_POST['senha']));
+$senha = md5($_POST['senha']);
 
 
 

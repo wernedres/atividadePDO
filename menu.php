@@ -20,13 +20,13 @@
 
             <ul class="nav navbar-nav navbar-left ">
                 <li><a href="/home.php"><span class="glyphicon glyphicon-home "></span>-HOME</a></li>
-                <li><a href="/profList.php"><span class="glyphicon glyphicon-book"></span>PROFESSOR</a></li>
-                <li><a href="/cateList.php"><span class="glyphicon glyphicon-list-alt"></span>CATEGORIAS</a></li>
+                <li><a href="../ArqProfessor/profList.php"><span class="glyphicon glyphicon-book"></span>PROFESSOR</a></li>
+                <li><a href="../ArqCategoria/cateList.php"><span class="glyphicon glyphicon-list-alt"></span>CATEGORIAS</a></li>
                 <!-- <li><a href="/formContato.php">CONTATOS</a></li>-->
               
-                <li><a href="/cursList.php"><span class="glyphicon glyphicon-th-list"></span>CURSO</a></li>
+                <li><a href="../ArqCurso/cursList.php"><span class="glyphicon glyphicon-th-list"></span>CURSO</a></li>
                 <!-- <li><a href="/turmas.php">TURMAS</a></li>-->
-                <li><a href="/userList.php"><span class="glyphicon glyphicon-user"></span>Usuario</a></li>
+                <li><a href="../ArqUser/userList.php"><span class="glyphicon glyphicon-user"></span>Usuario</a></li>
             </ul>
             <!-- <div class="nav navbar-nav navbar-right">
 

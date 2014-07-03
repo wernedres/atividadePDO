@@ -1,6 +1,6 @@
-<?php require_once("header.php"); ?>
-<?php require_once("menu.php"); ?>
-<?php include_once 'pg_connect.php'; ?>
+<?php require_once("../header.php"); ?>
+<?php require_once("../menu.php"); ?>
+<?php include_once '../pg_connect.php'; ?>
 
 
 <div id="conteudo">
@@ -45,9 +45,9 @@
 
     </table> 
 
-    <a href="forms/formCategoria.php" class="btn btn-sm btn-success glyphicon glyphicon-ok"> Nova categoria</a>
+    <a href="formCategoria.php" class="btn btn-sm btn-success glyphicon glyphicon-ok"> Nova categoria</a>
 
 
 </div>
 
-<?php require_once("footer.php"); ?>
+<?php require_once("../footer.php"); ?>

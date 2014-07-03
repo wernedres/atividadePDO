@@ -1,7 +1,7 @@
 <?php
-require_once("header.php");
-require_once("menu.php");
-require_once ("pg_connect.php");
+require_once("../header.php");
+require_once("../menu.php");
+require_once ("../pg_connect.php");
 ?>
 
 <div id="conteudo">
@@ -48,8 +48,8 @@ require_once ("pg_connect.php");
 
 
     </table>
-    <a href="forms/formCurso.php" class="btn btn-sm btn-success glyphicon glyphicon-ok"> Novo Curso</a>
+    <a href="formCurso.php" class="btn btn-sm btn-success glyphicon glyphicon-ok"> Novo Curso</a>
 </div>
 
-<?php require_once("footer.php"); ?>
+<?php require_once("../footer.php"); ?>
  
