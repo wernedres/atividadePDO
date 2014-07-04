@@ -37,7 +37,7 @@
             <tr>
                 <td><?php echo $rs->cate_id; ?></td>
                 <td><?php echo $rs->cate_nome; ?></td>
-                <td><a href="cateEdit.php?action=update&id=<?php echo $rs->cate_id; ?>" class="btn btn-info glyphicon glyphicon-list">Editar</a></td>
+                <td><a href="cateEdit.php?action=update&id=<?php echo $rs->cate_id; ?>" class="btn btn-info glyphicon glyphicon-pencil">Editar</a></td>
                 <td><a href="cateDelete.php?action=delete&id=<?php echo $rs->cate_id; ?>" class="btn btn-danger  glyphicon glyphicon-trash" class="btn"  >Excluir</a></td>
             </tr>
 

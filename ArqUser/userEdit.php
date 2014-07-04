@@ -68,7 +68,7 @@ if (isset($_GET['action']) && $_GET['action'] == 'update') {
                         <div class="form-group">
                             <label class="col-sm-1 control-label">Senha</label>
                             <div class="col-sm-5">
-                                <input  lang=”br” required="true" type="password" x-webkit-speech  class="form-control" name="senha" value="<?php echo $result->user_senha; ?>" placeholder="Insira a senha"  required="true" height="50" >
+                                <input  lang=”br” required="true" type="password" x-webkit-speech  class="form-control" name="senha" value="" placeholder="Insira nova senha"  required="true" height="50" >
                             </div><br/><br/>
 
 

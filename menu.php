@@ -20,13 +20,20 @@
 
             <ul class="nav navbar-nav navbar-left ">
                 <li><a href="/home.php"><span class="glyphicon glyphicon-home "></span>-HOME</a></li>
+                <?php if ($_SESSION['leitura'] == 't'): ?>
                 <li><a href="../ArqProfessor/profList.php"><span class="glyphicon glyphicon-book"></span>PROFESSOR</a></li>
+                <?php endif; ?>
                 <li><a href="../ArqCategoria/cateList.php"><span class="glyphicon glyphicon-list-alt"></span>CATEGORIAS</a></li>
                 <!-- <li><a href="/formContato.php">CONTATOS</a></li>-->
               
                 <li><a href="../ArqCurso/cursList.php"><span class="glyphicon glyphicon-th-list"></span>CURSO</a></li>
+                <?php if ($_SESSION['permissao'] == 2): ?>
                 <!-- <li><a href="/turmas.php">TURMAS</a></li>-->
                 <li><a href="../ArqUser/userList.php"><span class="glyphicon glyphicon-user"></span>Usuario</a></li>
+            <?php endif; ?>
+
+
+
             </ul>
             <!-- <div class="nav navbar-nav navbar-right">
 
